@@ -1,16 +1,21 @@
+*{
+    font-family: Roboto;
+}
+
 .header ul{
     display: flex;
     list-style-type: none;
     gap :20px;
-    font-family: Roboto;
+
     background-color: #1f2937;
     color: #f9faf8;
     align-items: center;
     margin: none;
+    padding: 0px 200px;
 }
 
-.header-ul{
-    margin:none;
+ul.header-ul{
+    margin:0px;
 }
 
 li.logo{
@@ -27,23 +32,26 @@ li.logo{
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
-    gap:40px;
+    gap:50px;
+    padding:50px 15%;
 }
 .main-text{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
     flex-wrap: wrap;
+    margin:0px;
 }
 
 .sub-text{
     font-size: 18px;
     color: #e5e7eb;
     flex-wrap: wrap;
+    margin:0px;
 }
 
 .hero-text{
-    width: 500px;
+    width: 700px;
     height :50%;
     
 }
@@ -51,4 +59,12 @@ li.logo{
 .image{
     width: 400px;
     height:50%;
+}
+
+.button{
+    margin-top:10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 5px 15px;
 }
