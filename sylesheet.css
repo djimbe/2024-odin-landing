@@ -11,7 +11,7 @@
     color: #f9faf8;
     align-items: center;
     margin: none;
-    padding: 0px 200px;
+    padding: 10px 200px;
 }
 
 ul.header-ul{
@@ -44,7 +44,7 @@ li.logo{
 }
 
 .sub-text{
-    font-size: 18px;
+    font-size: 14px;
     color: #e5e7eb;
     flex-wrap: wrap;
     margin:0px;
@@ -57,7 +57,7 @@ li.logo{
 }
 
 .image{
-    width: 400px;
+    width: 600px;
     height:50%;
 }
 
@@ -72,9 +72,10 @@ li.logo{
 .sub-info{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-wrap: wrap;
     gap:50px;
+    margin-bottom: 20px;
 }
 
 .main-header{
@@ -86,11 +87,11 @@ li.logo{
 }
 
 .info img{
-    border:solid blue 2px;
+    /* border:solid blue 2px; */
     width: 50%;
     height: 50%;
-    min-height: 150px;
-    min-width: 150px;
+    min-height: 200px;
+    min-width: 200px;
 }
 
 .info{
@@ -99,6 +100,7 @@ li.logo{
     flex-direction: column;
     align-items: center;
     flex-basis: 0;
+    /* outline : 2px solid blue; */
 }
 
 .quote{
@@ -111,7 +113,7 @@ li.logo{
 }
 
 .main-quote{
-    font-size: 36px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
@@ -166,4 +168,9 @@ li.logo{
     color: #f9faf8;
     background-color: #1f2937;
     padding: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
